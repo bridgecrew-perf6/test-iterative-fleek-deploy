@@ -3,7 +3,7 @@ name: test-fleek-iterative-deploy
 on:
     push:
         branches:
-            - '**'
+            - 'main'
 
 jobs:
     build:
