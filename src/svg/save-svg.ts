@@ -25,8 +25,7 @@ export async function saveSvgToFile(inputs: GenerateSvgFileInputs): Promise<stri
 
     const svgString = `<svg viewBox="0 0 ${width} ${height}" width="${width}" height="${height}" xmlns="http://www.w3.org/2000/svg">${inputs.svgContents}</svg>`;
 
-    const extension = inputs.filePath.endsWith('.svg') ? '' : '.svg';
-    const saveFileName = `${inputs.filePath}${extension}`;
+    const saveFileName = inputs.filePath;
 
     await writeFile(saveFileName, svgString);
 

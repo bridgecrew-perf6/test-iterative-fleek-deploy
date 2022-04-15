@@ -21,7 +21,7 @@ export async function saveRandomSvg(inputs: GenerateRandomSvgInputs) {
         maxY: inputs.height,
     });
 
-    const fileName = join(inputs.saveDir, randomString(8));
+    const fileName = `${join(inputs.saveDir, randomString(8))}.svg`;
 
     await saveSvgToFile({
         filePath: fileName,
