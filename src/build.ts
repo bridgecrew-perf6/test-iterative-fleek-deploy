@@ -3,7 +3,7 @@ import {writeFile} from 'fs/promises';
 import {basename, dirname, join} from 'path';
 import {saveRandomSvg} from './svg/generate-random-svg';
 
-const filesToGenerate = 1000;
+const filesToGenerate = 199;
 const svgSize = {
     width: 25,
     height: 25,
