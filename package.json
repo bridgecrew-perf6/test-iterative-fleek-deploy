@@ -23,11 +23,11 @@
         "test:full": "npm test && npm run spellcheck && virmator format check"
     },
     "dependencies": {
-        "augment-vir": "1.12.1",
+        "augment-vir": "1.12.2",
         "fs-extra": "10.1.0"
     },
     "devDependencies": {
-        "@toniq-labs/fleek-iterative-deploy": "1.2.10",
+        "@toniq-labs/fleek-iterative-deploy": "1.2.11",
         "@types/fs-extra": "9.0.13",
         "@types/node": "17.0.25",
         "virmator": "2.0.5"
