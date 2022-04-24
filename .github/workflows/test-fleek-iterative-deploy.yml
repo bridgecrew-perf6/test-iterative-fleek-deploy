@@ -6,15 +6,20 @@ on:
             - 'main'
 
 jobs:
-    build:
+    fleek-iterative-deploy:
         runs-on: ${{ matrix.os }}
         strategy:
             fail-fast: false
             matrix:
                 os: [ubuntu-latest]
                 node-version: [16.x]
+        concurrency:
+            group: 'fleek-deploy'
+            cancel-in-progress: true
         steps:
             - uses: actions/checkout@v3
+              with:
+                  fetch-depth: 0
             - name: Use Node.js ${{ matrix.node-version }}
               uses: actions/setup-node@v3
               with:
@@ -26,4 +31,4 @@ jobs:
                   FLEEK_TEAM_ID: ${{ secrets.FLEEK_TEAM_ID }}
               run: |
                   npm ci
-                  npx fleek-iterative-deploy
+                  npx @toniq-labs/fleek-iterative-deploy
