@@ -1,0 +1,11 @@
+<svg viewBox="0 0 25 25" width="25" height="25" xmlns="http://www.w3.org/2000/svg"><rect width="25" height="25" fill="none" stroke="tomato" stroke-width="2"/>
+<circle cx="14" cy="23" r="2" fill="green" fill-opacity="0.97"/>
+<circle cx="23" cy="11" r="8" fill="slateblue" fill-opacity="0.76"/>
+<circle cx="24" cy="8" r="2" fill="goldenrod" fill-opacity="0.96"/>
+<circle cx="23" cy="9" r="7" fill="lightyellow" fill-opacity="0.67"/>
+<circle cx="5" cy="24" r="6" fill="plum" fill-opacity="1.00"/>
+<circle cx="21" cy="7" r="8" fill="whitesmoke" fill-opacity="0.53"/>
+<circle cx="15" cy="20" r="1" fill="paleturquoise" fill-opacity="0.84"/>
+<circle cx="16" cy="15" r="4" fill="papayawhip" fill-opacity="0.48"/>
+<circle cx="3" cy="17" r="1" fill="darksalmon" fill-opacity="0.35"/>
+<circle cx="13" cy="2" r="4" fill="aquamarine" fill-opacity="0.78"/></svg>

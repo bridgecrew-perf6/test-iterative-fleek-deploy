@@ -1,0 +1,7 @@
+<svg viewBox="0 0 25 25" width="25" height="25" xmlns="http://www.w3.org/2000/svg"><rect width="25" height="25" fill="none" stroke="blanchedalmond" stroke-width="2"/>
+<circle cx="18" cy="1" r="4" fill="wheat" fill-opacity="0.73"/>
+<circle cx="18" cy="12" r="8" fill="tomato" fill-opacity="0.33"/>
+<circle cx="0" cy="12" r="4" fill="paleturquoise" fill-opacity="0.85"/>
+<circle cx="23" cy="20" r="3" fill="orange" fill-opacity="0.33"/>
+<circle cx="14" cy="14" r="8" fill="darkmagenta" fill-opacity="0.42"/>
+<circle cx="22" cy="24" r="8" fill="ghostwhite" fill-opacity="0.95"/></svg>
