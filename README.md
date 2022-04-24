@@ -1,3 +1,7 @@
-# Testing Iterative Fleek Deploy
+# DO NOT EDIT THIS BRANCH
 
-This repo generates 1000 random SVG files, an `index.html` file, and deploys to the Internet Computer at https://tnfml-uqaaa-aaaad-qbyeq-cai.ic.fleek.co via Fleek using [`fleek-iterative-deploy`](https://www.npmjs.com/package/fleek-iterative-deploy).
+This branch is controlled by `@toniq-labs/fleek-iterative-deploy` for iterative deploys.
+
+You should set this branch as your deploy branch in your Fleek config.
+
+If you delete this branch, it will be re-created by `@toniq-labs/fleek-iterative-deploy`.
